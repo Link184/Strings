@@ -26,14 +26,14 @@ allprojects {
 }
 
 project.ext {
-    bintrayRepo = 'Strings'
+    bintrayRepo = 'Common'
 
-    libraryDescription = 'Very useful collection of strings in 105 languages'
+    libraryDescription = 'Very useful collection of strings translated 105 languages for each android project'
 
     siteUrl = 'https://github.com/Link184/Strings'
     gitUrl = 'https://github.com/Link184/Strings.git'
 
-    libraryVersion = '0.0.0'
+    libraryVersion = '1.0.0'
 
     developerId = 'link184'
     developerName = 'Eugeniu Tufar'

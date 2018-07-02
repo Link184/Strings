@@ -1,4 +1,5 @@
 apply plugin: 'com.android.library'
+apply plugin: 'maven-publish'
 
 android {
     compileSdkVersion 27
@@ -11,12 +12,11 @@ android {
 }
 
 ext {
-    bintrayRepo = 'Strings'
-    bintrayName = 'UsefulStrings'
+    bintrayName = 'Strings'
 
     publishedGroupId = 'com.link184'
     libraryName = 'Strings'
-    artifact = 'useful-strings'
+    artifact = 'strings'
 }
 
 apply from: '../installv1.gradle'
