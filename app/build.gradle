@@ -1,0 +1,23 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        minSdkVersion 1
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+    }
+}
+
+ext {
+    bintrayRepo = 'Strings'
+    bintrayName = 'UsefulStrings'
+
+    publishedGroupId = 'com.link184'
+    libraryName = 'Strings'
+    artifact = 'useful-strings'
+}
+
+apply from: '../installv1.gradle'
+apply from: '../bintrayv1.gradle'
