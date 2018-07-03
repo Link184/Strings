@@ -5,14 +5,14 @@ Is a collection of common strings translated in 105 languages. Very useful for e
 
 Gradle:
 ```gradle
-implementation 'com.link184:strings:1.0.0'
+implementation 'com.link184:common-strings:1.0.0'
 ```
 
 Maven:
 ```xml
 <dependency>
   <groupId>com.link184</groupId>
-  <artifactId>strings</artifactId>
+  <artifactId>common-strings</artifactId>
   <version>1.0.0</version>
   <type>pom</type>
 </dependency>

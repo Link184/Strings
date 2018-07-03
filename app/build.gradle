@@ -15,8 +15,8 @@ ext {
     bintrayName = 'Strings'
 
     publishedGroupId = 'com.link184'
-    libraryName = 'Strings'
-    artifact = 'strings'
+    libraryName = 'CommonStrings'
+    artifact = 'common-strings'
 }
 
 apply from: '../installv1.gradle'
